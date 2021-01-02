@@ -1,0 +1,132 @@
+ [
+    {
+      "questionText": "What is the capital of France?",
+      "answerOptions": [
+            { "answerText": "New York", "isCorrect": false
+            },
+            { "answerText": "London", "isCorrect": false
+            },
+            { "answerText": "Paris", "isCorrect": true
+            },
+            { "answerText": "Dublin", "isCorrect": false
+            }
+        ]
+    },
+    {
+      "questionText":" Who is CEO of Tesla?",
+      "answerOptions": [
+            { "answerText": "Jeff Bezos", "isCorrect": false
+            },
+            { "answerText": "Elon Musk", "isCorrect": true
+            },
+            { "answerText": "Bill Gates", "isCorrect": false
+            },
+            { "answerText": "Tony Stark", "isCorrect": false
+            }
+        ]
+    },
+    {
+      "questionText": "The iPhone was created by which company?",
+      "answerOptions": [
+            { "answerText": "Apple", "isCorrect": true
+            },
+            { "answerText": "Intel", "isCorrect": false
+            },
+            { "answerText": "Amazon", "isCorrect": false
+            },
+            { "answerText": "Microsoft", "isCorrect": false
+            }
+        ]
+    },
+    {
+      "questionText": "How many Harry Potter books are there?",
+      "answerOptions": [
+            { "answerText": 1, "isCorrect": false
+            },
+            { "answerText": 4, "isCorrect": false
+            },
+            { "answerText": 6, "isCorrect": false
+            },
+            { "answerText": 7, "isCorrect": true
+            }
+        ]
+    },
+    {
+      "questionText": "When is the International Yoga Day celebrated?",
+      "answerOptions": [
+            { "answerText": "June 21", "isCorrect": true
+            },
+            { "answerText": "March 21", "isCorrect": false
+            },
+            { "answerText": "April 22", "isCorrect": false
+            },
+            { "answerText": "May 31", "isCorrect": false
+            }
+        ]
+    },
+    {
+      "questionText": "Which country has issued apology for the persecution of Jews during the second world war?",
+      "answerOptions": [
+            { "answerText": "Germany", "isCorrect": false
+            },
+            { "answerText": "England", "isCorrect": false
+            },
+            { "answerText": "Greece", "isCorrect": false
+            },
+            { "answerText": "Netherlands", "isCorrect": true
+            }
+        ]
+    },
+    {
+      "questionText": "India's first e-waste clinic is to be inaugurated in which city?",
+      "answerOptions": [
+            { "answerText": "Amravati", "isCorrect": false
+            },
+            { "answerText": "Bhopal", "isCorrect": true
+            },
+            { "answerText": "New Delhi", "isCorrect": false
+            },
+            { "answerText": "Ahmedabad", "isCorrect": false
+            }
+        ]
+    },
+    {
+      "questionText": "Jan Aushadhi Day is celebrated every year?",
+      "answerOptions": [
+            { "answerText": "17 March", "isCorrect": false
+            },
+            { "answerText": "07 March", "isCorrect": true
+            },
+            { "answerText": "27 March", "isCorrect": false
+            },
+            { "answerText": "10 March", "isCorrect": false
+            }
+        ]
+    },
+    {
+      "questionText": "........... is the first woman to head a public sector bank",
+      "answerOptions": [
+            { "answerText": "Arundhati Bhattacharya", "isCorrect": true
+            },
+            { "answerText": "Shikha Sharma", "isCorrect": false
+            },
+            { "answerText": "Chanda Kochar", "isCorrect": false
+            },
+            { "answerText": "Usha Ananthasubramanyan", "isCorrect": false
+            }
+        ]
+    },
+    {
+      "questionText": "The motif of 'Hampi with Chariot' is printed on the reverse of which currency note?",
+      "answerOptions": [
+            { "answerText": "One Rupee Note", "isCorrect": false
+            },
+            { "answerText": "Rs.500 note", "isCorrect": false
+            },
+            { "answerText": "Rs.50 note", "isCorrect": true
+            },
+            { "answerText": "Rs.1000 note", "isCorrect": false
+            }
+        ]
+    }
+]
