@@ -70,27 +70,44 @@ body{
     min-height: 300px;
     display: grid;
     grid-template-columns: 1fr;
-    
+    position: relative;
     align-items: center;
-    text-align: center;
+    
     font-size: xx-large;
 }
 
-.collast{
-color: white;
+.quescol{
+    margin-right: 5px;
 }
 
-.restart{
-    margin-top: 20px;
+.quescol span{
+font-size: medium;
+}
+.collast{
+color: white;
+
+
+}
+
+.scoreend{
+    text-align: center;
+    
+}
+
+.collast .restart{
+    position: absolute;
+    /* margin-top: 20px; */
     padding: 10px 20px;
     background-color:#3F4964;
     color: white;
     border-radius: 10px;
     cursor: pointer;
     font-weight: 700;
+    right: 10px;
+   top: 10px;
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:1000px){
 .col1{
     width: 100%;
 }

@@ -55,15 +55,20 @@ class Quiz extends React.Component {
           {this.state.questionCnt > 4 ? (
             <div className="rowlast ">
               <div className="collast">
-                {`You scored ${JSON.parse(
-                  sessionStorage.getItem("cnt")
-                )} out of 4`}
+                <button className="restart" onClick={this.restart}>
+                  Restart
+                </button>
+                <h3 className="scoreend">
+                  {`You scored ${JSON.parse(
+                    sessionStorage.getItem("cnt")
+                  )} out of 4`}
+                </h3>
               </div>
             </div>
           ) : (
             <div className="row2">
-              <div className="col2">
-                <h2>{`Question ${this.state.questionCnt}/4`}</h2>
+              <div className="col2 quescol">
+                <h2>{`Question ${this.state.questionCnt}`}<span> / 4</span></h2>
                 <p className="question">
                   {this.state.questions[randomQues - 1].questionText}
                 </p>
@@ -85,10 +90,6 @@ class Quiz extends React.Component {
               </div>
             </div>
           )}
-
-          <button className="restart" onClick={this.restart}>
-            Restart
-          </button>
         </div>
       </div>
     );
